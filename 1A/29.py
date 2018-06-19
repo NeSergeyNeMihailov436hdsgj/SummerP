@@ -2,7 +2,7 @@ import datetime
 
 
 def printTimeStamp(name):
-    print('Автори програми: ' + name)
+    print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
 
 n=1
@@ -33,4 +33,4 @@ for row in range(2):
                          p = 27
                          print(" " * p + "xxx" * n)
                          p+=3
-printTimeStamp("Давлат Чорновол,Сергій Михайлов")
+printTimeStamp("Сергій Михайлов")
