@@ -1,6 +1,6 @@
 import datetime
 def printTimeStamp(name):
-    print('Автори програми: ' + name)
+    print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
 u = list(input("Введите два значения: Говорит ли попугай (Да/Нет) и время (HH:MM) через пробел: ").split())
 b = u[1].split(r':')
@@ -9,4 +9,4 @@ if u[0] == "Да" and b[0] in a:
     print("Стоит накрыть клетку попугая простыней, чтобы он успокоился")
 else:
     print("Накрывать клетку нет потребности")
-printTimeStamp("Давлат Чорновол,Сергій Михайлов")
+printTimeStamp("Сергій Михайлов")
