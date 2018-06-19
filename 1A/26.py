@@ -2,7 +2,7 @@ import datetime
 
 
 def printTimeStamp(name):
-    print('Автори програми: ' + name)
+    print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
 
 a=(input("Sides: ")).split()
@@ -14,4 +14,4 @@ elif a[0]==a[1]!=a[2]:
     print("Рівнобедрений трикутник")
 else:
     print("Нерівносторонній триркутник")
-printTimeStamp("Давлат Чорновол,Сергій Михайлов")
+printTimeStamp("Сергій Михайлов")
