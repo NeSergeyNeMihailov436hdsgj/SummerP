@@ -2,7 +2,7 @@ import datetime
 
 
 def printTimeStamp(name):
-    print('Автори програми: ' + name)
+    print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
 
 
@@ -20,4 +20,4 @@ elif day=="Holidays":
     print("Alarm will be disabled in "+",".join(list2))
 else:
     print("Try again")
-printTimeStamp("Давлат Чорновол,Сергій Михайлов")
+printTimeStamp("Сергій Михайлов")
