@@ -1,7 +1,7 @@
 import datetime
 
 def printTimeStamp(name):
-    print('Автори програми: ' + name)
+    print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
 
 year=int(input("Year:"))
@@ -11,4 +11,4 @@ elif int(year) ==int(1):
 else:
   dog_years=(((year-2)*4)+21)
   print(str(year)+" years of human life = "+str(dog_years)+" years of dog life ")
-printTimeStamp("Давлат Чорновол,Сергій Михайлов")
+printTimeStamp("Сергій Михайлов")
