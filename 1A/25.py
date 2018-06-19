@@ -2,7 +2,7 @@ import datetime
 
 
 def printTimeStamp(name):
-    print('Автори програми: ' + name)
+    print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
 
 d=0
@@ -20,4 +20,4 @@ while time>=60:
     time-=60
     m+=1
 print(str(a)+" seconds = {} days , {} hours , {} minutes , {} seconds".format(d,h,m,time))
-printTimeStamp("Давлат Чорновол,Сергій Михайлов")
+printTimeStamp("Сергій Михайлов")
