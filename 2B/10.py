@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Сергей МИхайлов')
 
 playlist = [['Seven Devils', 'Florence + The Machine', 'Ceremonials', 5.03],
             ['Primo Victoria', 'Van Canto', 'Break the Silence', 3.44],
@@ -57,4 +56,6 @@ while True:
             print('Загальна тривалість плейлисту: {}'.format(sum(c)))
         else:
             print('Некоректне значення, спробуйте ще раз')
+printTimeStamp('Сергей МИхайлов')
+
               
