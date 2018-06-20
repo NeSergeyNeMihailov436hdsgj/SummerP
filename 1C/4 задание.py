@@ -3,7 +3,7 @@ import datetime
 def printTimeStamp(name):
     print("Автор програми: " + name)
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
-printTimeStamp("Давлат Черновол")
+
 
 s=int(input("Введите ваш тариф: "))
 x=int(input("Сколько мб вы потратили: "))
@@ -61,3 +61,4 @@ elif s == 5000:
 
 else:
   print("Неправельно введено тариф")
+printTimeStamp("Сергей Михайлов")
