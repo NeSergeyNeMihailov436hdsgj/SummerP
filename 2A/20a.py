@@ -3,8 +3,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Сергей Михайлов')
-
 b = []
 d = []
 e = []
@@ -25,3 +23,4 @@ for i in range(len(b)):
         print('')
 print('Список чисел, які менші за середнє значення: {}'.format(d))
 print('Список чисел, які більші або рівні середньому значенню: {}'.format(e))
+printTimeStamp('Сергей Михайлов')
