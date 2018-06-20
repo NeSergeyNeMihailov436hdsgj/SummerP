@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
 x1 = float(input('Enter the x part of the coordinate: '))
 y1 = float(input('Enter the y part of the coordinate: '))
 xt = x1
@@ -23,3 +22,4 @@ while True:
 d = math.sqrt(((xt - x1) ** 2) + ((yt - y1) ** 2))
 p += d
 print('The perimeter of that polygon is ' + str(p))
+printTimeStamp('Михайлов Сергій')
