@@ -1,12 +1,8 @@
 import datetime
 from random import randrange
-
-#Прокопчук Б.Ю.!!!!
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
-
 def sattoloCycle(items):
     i = len(items)
     while i > 1:
@@ -17,7 +13,6 @@ def sattoloCycle(items):
         k.insert(j, aa)
         k.insert(i, bb)
     return
-#Створення колоди
 k = []
 l = ['s', 'h', 'd', 'c']
 s = ['J', 'Q', 'K', 'A']
@@ -28,9 +23,7 @@ for i in range(len(l)):
     for c in range(len(s)):
         b = str(s[c]) + str(l[i])
         k.append(b)
-#Сортування колоди
 sattoloCycle(list(k))
-
 pq = int(input('К-сть гравців: '))
 cq = int(input('К-сть карт на гравця: '))
 playerlist = []
@@ -49,3 +42,4 @@ else:
         cardlistt.clear()
     for i in range(len(playerlist)):
         print('{0}: {1}'.format(playerlist[i], cardlist[i]))
+printTimeStamp('Михайлов Сергій')        
