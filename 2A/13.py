@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
 
 k = []
 l = ['s', 'h', 'd', 'c']
@@ -16,3 +15,4 @@ for i in range(len(l)):
         b = str(s[c]) + str(l[i])
         k.append(b)
 print(k)
+printTimeStamp('Михайлов Сергій')
