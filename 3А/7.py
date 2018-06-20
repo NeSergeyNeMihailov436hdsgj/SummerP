@@ -18,4 +18,4 @@ def pas_gen(lenght):
     b.append(" - " +str(count)+" Password"+"\n")
 pas_gen(10)
 print("".join(b))
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Сергій Михайлов")
