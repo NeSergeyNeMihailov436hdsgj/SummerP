@@ -11,5 +11,5 @@ def function(m,n):
     print(d)
 
 function(15,10)
-printTimeStamp("Давлат Черновол и Сергей Михайлов")
+printTimeStamp("Сергей Михайлов")
 
