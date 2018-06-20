@@ -8,4 +8,4 @@ result = list (str (res))
 del result[0], result[0], result[0], result[0] #В результате подсчета ИМТ всегда убираются ноли
 result.insert(2, ".")
 print ("IMT: ", (''.join(result)))
-printTimeStamp("Сергій Михайлов ")
+printTimeStamp(" Сергій Михайлов ")
