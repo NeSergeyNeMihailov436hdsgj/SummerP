@@ -20,4 +20,4 @@ if l == 6:
     print('IMEI відповідає Луна 6')
 else:
     print('IMEI не відповідає Луна 6')
-printTimeStamp('Давлат Черновол')
+printTimeStamp('Михайлов Сергій')
