@@ -2,7 +2,7 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
+printTimeStamp('Михайлов Сергій')
 s = []
 a = 2
 pi = float(3)
