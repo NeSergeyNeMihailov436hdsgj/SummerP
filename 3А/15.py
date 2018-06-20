@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print("Автор програми: " + name)
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
-printTimeStamp("Давлат Черновол")
 
 lis = [1]
 def Catalan(n):
@@ -13,3 +12,4 @@ def Catalan(n):
     print(lis[n])
 k=int(input("Введіть число: "))
 Catalan(k)
+printTimeStamp("Михайлов Сергій")
