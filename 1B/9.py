@@ -11,4 +11,4 @@ elif a[0:3].isdigit() and isinstance(a[4:6],str)and a[4:6].isupper():
     print("You have new version of the machine number")
 else:
     print("Error!!!")
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
