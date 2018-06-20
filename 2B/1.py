@@ -3,7 +3,7 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Сергей Михайлов')
+
 
 holy = {'A':'Newfoundland',
         'B':'Nova Scotia',
@@ -48,3 +48,4 @@ if code[1] == 0:
     print('Сільська місцевість')
 else:
     print('Місто')
+printTimeStamp('Сергей Михайлов')
