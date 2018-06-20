@@ -9,4 +9,4 @@ def HCD(x,y):
     else:
        return HCD(y, x % y)
 print(HCD(16,20))
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
