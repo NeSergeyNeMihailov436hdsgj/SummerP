@@ -7,4 +7,4 @@ month=int(input("Enter month:"))
 year=(input("Enter year:"))
 if str( day*month) == str( year[2:4]):
     print(str(day)+" Day of the "+str(month)+"month of "+str(year) + " will be magical")
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
