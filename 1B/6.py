@@ -14,7 +14,7 @@ for k in nominals:
     print (k,'$ :',int(d))
     summ += d
 print ('В сумме:', summ)
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
 
 
 
