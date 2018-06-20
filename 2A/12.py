@@ -3,8 +3,6 @@ import datetime
 def printTimeStamp(name):
     print("Автор програми: " + name)
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
-printTimeStamp("Сергей Михайлов")
-
 import winsound
 import itertools as i
 
@@ -23,3 +21,4 @@ for item in i.count(1):
         f=x[1][1]+x[1][n]
 
     winsound.Beep(g,f)
+printTimeStamp("Сергей Михайлов")
