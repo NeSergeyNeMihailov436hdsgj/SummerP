@@ -27,4 +27,4 @@ elif a == 2010 or a == 2022 or a == 2034:
   print('год тигра')
 elif a == 2011 or a == 2023 or a == 2035:
   print('год кролика')
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
