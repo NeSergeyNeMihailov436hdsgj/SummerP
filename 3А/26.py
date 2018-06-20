@@ -2,7 +2,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
 x = 0
 while True:
     try:
@@ -14,3 +13,4 @@ while True:
             print(x)
     except:
         print('Некоректне значення')
+printTimeStamp('Михайлов Сергій')
