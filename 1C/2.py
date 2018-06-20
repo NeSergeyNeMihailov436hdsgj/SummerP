@@ -5,4 +5,4 @@ def printTimeStamp(name):
 a = list(map(int,input("Введите дату в формате YEAR/MONTH/DAY через пробел: ").split()))
 d = datetime.date(a[0], a[1], a[2])
 print (d + datetime.timedelta(days = 1))
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
