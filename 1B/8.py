@@ -27,4 +27,4 @@ elif (a[0] == 10 and a[1] >= 23) or (a[0] == 11 and a[1] <= 21):
     print("Scorpio")
 elif (a[0] == 11 and a[1] >= 22) or (a[0] == 12 and a[1] <= 21):
     print("Sagittarius")
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
