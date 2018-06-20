@@ -8,4 +8,4 @@ def taxi(lenght):
     print("You need to pay "+str(int(pay))+"$")
 
 taxi(1400)
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
