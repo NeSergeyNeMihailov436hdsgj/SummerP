@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
 
 scrabble = {'A':1,
             'E':1,
@@ -44,3 +43,4 @@ while True:
                 if i == a[n]:
                     b.append(scrabble.get(i))
         print(sum(b))
+printTimeStamp('Михайлов Сергій')
