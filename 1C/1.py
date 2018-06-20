@@ -3,7 +3,7 @@ import datetime
 def printTimeStamp(name):
     print("Автор програми: " + name)
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
-printTimeStamp("Давлат Черновол")
+
 
 import random
 red = [1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36]
@@ -31,4 +31,5 @@ for i in range(1):
         print("Виплатити:","1 to 18")
     if 19<=word<=36:
         print("Виплатити:","19 to 36")
-
+        
+printTimeStamp("Михайлов Сергій")
