@@ -4,7 +4,6 @@ from random import randrange
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Сергей Михайлов')
 
 def sattoloCycle(items):
     i = len(items)
@@ -31,3 +30,4 @@ print(k)
 print('\n')
 sattoloCycle(list(k))
 print(k)
+printTimeStamp('Сергей Михайлов')
