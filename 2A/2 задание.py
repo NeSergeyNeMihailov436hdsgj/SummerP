@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print("Автор програми: " + name)
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
-printTimeStamp("Valeriy Neroznak")
 
 a=list(map(int,input("aa:").split(" ")))
 if int(0) in a:
@@ -12,3 +11,4 @@ if int(0) in a:
     print(a)
 else:
     print("Некоректне введення")
+printTimeStamp("Михайлов Сергій")    
