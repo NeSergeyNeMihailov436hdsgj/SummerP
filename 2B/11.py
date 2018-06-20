@@ -3,7 +3,6 @@ import datetime
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
-printTimeStamp('Давлат Черновол')
 
 phonebook = [['Пожежна безпека', '101'],
              ['Поліція', '102'],
@@ -48,3 +47,4 @@ while True:
             break
         else:
             print('Некоректне значення')
+printTimeStamp('Михайлов Сергій')
