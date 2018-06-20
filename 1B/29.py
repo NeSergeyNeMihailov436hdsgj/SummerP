@@ -20,4 +20,4 @@ def function(n):
       print(m," = ",factors)
 n = int(input("Number:"))
 function(n)
-printTimeStamp("Давлат Черновол")
+printTimeStamp("Михайлов Сергій")
